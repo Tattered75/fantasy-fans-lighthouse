@@ -1,2 +1,2 @@
-# fantasy-fans-fighthouse
+# fantasy-fans-lighthouse
 first project for code institute
