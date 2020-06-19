@@ -4,6 +4,41 @@ header {
     margin: 0;
 
 }
+#menu{
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+#logo {
+
+	float: left;
+	font-size: 280%;
+	margin-left: 30px;
+}
+
+#menu{
+font-size: 80%;
+list-style-type: none;
+letter-spacing: 4px;
+}
+
+#logo, #menu {
+	line-height: 75px;
+}
+#menu li {
+	float: right;
+	margin-right: 20px;
+}
+#menu a {
+	text-decoration: none;
+	color: inherit;
+}
+#menu a:hover{
+	border-bottom: 1px solid #777777;
+}
+.active{
+border-bottom: 1px solid #777777;
+}
 
 #hero-image{
 height: 1500px;
