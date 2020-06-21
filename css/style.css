@@ -3,6 +3,8 @@
 header{
     margin: 0;
     line-height: 20%;
+    min-height: 120px;
+    width: 100%;
 
 }
 
@@ -15,6 +17,7 @@ header{
     margin-top: 50px;
     text-align: right;
     padding-left: 50px;
+
   
 }
 .logo, h1 {
@@ -47,10 +50,10 @@ border-bottom: 1px solid #777777;
 }
 
 #hero-image{
-height: 1000px;
+height: 3000px;
 width: 100%;
-background: url("http://notthetate.co.uk/stuartart/guidinglight.jpg")
-no-repeat center; 
+background: url(https://www.setaswall.com/wp-content/uploads/2017/07/Lighthouse-Background-37-1920x1200-768x480.jpg)
+no-repeat center center; 
 
 animation-name: hero-zoom;
 animation-duration: 5s;
@@ -111,24 +114,18 @@ color: #fff;}
     background: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/07/17/6c/34.jpg) no-repeat center center;
 color: #fff;}
 
+/*-----------FOOTER----*/
 footer{
-	height: 15px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    color: #555555;
+    min-height: 120px;
+    margin: 0;
 }
+.uppercase{
+    text-transform: uppercase;
+}
+.general-sub{
+    font-family: "Playfair", sans-serif;
+    font-weight: 300;
+    color: #555555;
 
-.social-networks{
-	text-align: center;
-}
-.social-networks li{
-	display: inline;
-}
-
-.social-networks i{
-	font-size: 160%;
-	margin: 1%;
-	padding: 5%;
-	color: #777777;
 }
