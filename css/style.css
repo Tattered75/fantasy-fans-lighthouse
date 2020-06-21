@@ -13,18 +13,22 @@ header{
     font-size: 150%;
     letter-spacing: 4px;
     margin-top: 50px;
+    text-align: right;
+    padding-left: 50px;
   
 }
 .logo, h1 {
     color: black;
     font-size: 150%;
     letter-spacing: 4px;
-    text-align: right;
-    clear: both;
+    text-align: left;
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
     margin-top: 15px;
+    float: right;
+    padding-right: 50px;
+    
 }
 
 #menu li {
@@ -43,36 +47,42 @@ border-bottom: 1px solid #777777;
 }
 
 #hero-image{
-height: 60%;
+height: 1000px;
 width: 100%;
 background: url("http://notthetate.co.uk/stuartart/guidinglight.jpg")
-no-repeat center center; 
+no-repeat center; 
+
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
-background-size: cover;
 }
 
 h2{
-     letter-spacing: 4px;
-     color: #fff;
-     font-size: 160%;
+    
 }
 
-.cover-text, #hero-image{
-	 font-size: 120%;
+.cover-text, h2{
 	 font-family: Noto Serif;
 	 color: #fff;
-	width: 100%;
-		height: 1000px;
-		padding-top: 40px;
-		padding-left: 10px;
-        padding-bottom: 40px;
+	padding-top: 40px;
+	padding-left: 10px;
 	 position: absolute;
      float: left;
      border-top: 40px;
-     line-height: 60%;
+    letter-spacing: 4px;
+     font-size: 160%;
  }
+cover-text, p{
+    font-size: 120%;
+	 font-family: Noto Serif;
+	 color: #fff;
+		padding-top: 10px;
+		padding-left: 10px;
+        padding-bottom: 40px;
+        float: left;
+        letter-spacing: 2px;
+}
+
 .movies{
     display: grid;
   grid-gap: 5px;
@@ -101,10 +111,24 @@ color: #fff;}
     background: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/07/17/6c/34.jpg) no-repeat center center;
 color: #fff;}
 
-.footer{
-    line-height: 20%;
-    padding-top: 20px;
-	padding-left: 10px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+footer{
+	height: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.social-networks{
+	text-align: center;
+}
+.social-networks li{
+	display: inline;
+}
+
+.social-networks i{
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #777777;
 }
