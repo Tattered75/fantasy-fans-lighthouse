@@ -17,6 +17,7 @@ header{
     margin-top: 50px;
     text-align: right;
     padding-left: 50px;
+    display: inline-block;
 
   
 }
@@ -31,6 +32,7 @@ header{
     margin-top: 15px;
     float: right;
     padding-right: 50px;
+    display: inline-block;
     
 }
 
