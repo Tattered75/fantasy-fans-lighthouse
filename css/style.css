@@ -5,10 +5,14 @@
 	padding: 0;
 	border: 0;
 }
+header{
+    max-height: 25%;
+}
 body
 {
 	font-family: "Metal Mania", sans-serif;
 	color: #000000;
+   
 
 }
 /*----------------------Main Headings & Header Links Section-------*/
@@ -99,41 +103,53 @@ position: relative
      position: absolute;
  }
 
-.movies{
-    display: grid;
-  grid-gap: 5px;
-  background: url(https://thatsitla.com/wp-content/uploads/2013/02/movie-popcorn.png) no-repeat;
-  color: #fff;
-  margin-top: 150px;
-  padding-top: 20px;
-  position: absolute;
-}
-.chat-rooms{
-    display: grid;
-  grid-gap: 5px;
-  background: url(https://st4.depositphotos.com/5934840/24323/v/1600/depositphotos_243236592-stock-illustration-coffee-shop-cartoon.jpg) no-repeat;
-  color:#777777;
-  margin-top: 150px;
-  padding-top: 20px;
-  position: absolute;
-}
-.gamers{
-    display: grid;
-  grid-gap: 5px;
-  background: url(https://press.razer.com/wp-content/uploads/2020/01/Kishi-KV_R2-1024x861.jpg)no-repeat;
-  color: #fff;
-}
-.tours{
-    display: grid;
-  grid-gap: 5px;
-  background: url(https://i.pinimg.com/564x/0a/f4/9a/0af49acfe5fb435072109cf700d18b3a.jpg)no-repeat;
-color: #fff;}
 
+
+.activities{
+  max-height: 75%;
+    text-align: center;
+    width: 100%;
+}
+#activities-image{
+background: url("https://media1.s-nbcnews.com/j/newscms/2019_13/2459586/180608-aliens-fermi-paradox-ac-515p_3ed014cab156ff9319f4d52ee5242b89.fit-2000w.jpg") cover;
+max-height: 75%;
+width: 100%;
+
+}
+
+/*----------------------SIGN UP PAGE-------*/
 .sign-up{
     background: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/07/17/6c/34.jpg) no-repeat center center;
 color: #fff;}
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    }
 
-/*-----------FOOTER----*/
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+/*----------------------Media Query*/(to make it adapt to a phone size)
+@media(min-width: 992px){
+    .center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+/*-----------FOOTER-----------------------*/
 footer{
 	height: 150px;
 }
