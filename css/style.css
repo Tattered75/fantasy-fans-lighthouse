@@ -12,65 +12,55 @@ body
 
 }
 /*----------------------Main Headings & Header Links Section-------*/
-header{
-    margin: 0;
-    line-height: 20%;
-    min-height: 120px;
-    width: 100%;
+h1 {
+
+	font-family: "Metal Mania", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #000000;
+}
+
+#main-heading {
+
+	float: left;
+	font-size: 280%;
+	margin-left: 30px;
+}
+
+#header-links{
+
+font-size: 110%;
+list-style-type: none;
+letter-spacing: 4px;
 
 }
-.main-heading {
-margin: 0;
-margin-top: 20px;
-margin-bottom: 20px;
-position: absolute;
-display: inline-block;
-white-space: nowrap;
+
+#main-heading, #header-links {
+	line-height: 75px;
 }
-h1{
-color: #000000;
-letter-spacing: 4px;
-text-align: left;
-font-family: "Metal Mania", sans-serif;
-padding-right: 5px;
-font-weight: 500;
-text-transform: uppercase;
+#header-links li {
+
+	float: right;
+	margin-right: 30px;
+
 }
-.header-links{
-    position: absolute;
-    list-style-type: none;
-    font-size: 15px;;
-    letter-spacing: 2px;
-    margin-top: 20px;
-    text-align: right;
-    padding-right: 5px;
-    display: inline-block;
-    float: left;
-}
-.header-links a {
+
+#header-links a {
+
 	text-decoration: none;
 	color: inherit;
+
 }
-.header-links a:hover{
-	border-bottom: 1px solid hsla(0, 4%, 5%, 0.918);
+
+#header-links a:hover{
+
+	border-bottom: 1px solid #777777;
 }
+
 .active{
+
 border-bottom: 1px solid #777777;
-}
 
-#hero-image{
-height: 3000px;
-width: 100%;
-background: url(https://www.setaswall.com/wp-content/uploads/2017/07/Lighthouse-Background-37-1920x1200-768x480.jpg)
-no-repeat center center; 
-
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-}
-
-h2{
-    
 }
 
 .cover-text, h2{
