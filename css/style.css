@@ -104,12 +104,18 @@ position: relative
   grid-gap: 5px;
   background: url(https://thatsitla.com/wp-content/uploads/2013/02/movie-popcorn.png) no-repeat;
   color: #fff;
+  margin-top: 150px;
+  padding-top: 20px;
+  position: absolute;
 }
 .chat-rooms{
     display: grid;
   grid-gap: 5px;
   background: url(https://st4.depositphotos.com/5934840/24323/v/1600/depositphotos_243236592-stock-illustration-coffee-shop-cartoon.jpg) no-repeat;
   color:#777777;
+  margin-top: 150px;
+  padding-top: 20px;
+  position: absolute;
 }
 .gamers{
     display: grid;
