@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Playfair+Display:wght@500&display=swap |Noto Serif 100, 200, 300, 400, 500, 600, 700');
 
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body
+{
+	font-family: "Metal Mania", sans-serif;
+	color: #000000;
+
+}
 /*----------------------Main Headings & Header Links Section-------*/
 header{
     margin: 0;
@@ -12,16 +23,18 @@ header{
 margin: 0;
 margin-top: 20px;
 margin-bottom: 20px;
-padding-right: 5px;
-font-family: "Metal Mania", sans-serif;
-font-weight: 500;
-font-size: 20px;
 position: absolute;
-text-align: left;
-letter-spacing: 4px;
 display: inline-block;
-color: black;
 white-space: nowrap;
+}
+h1{
+color: #000000;
+letter-spacing: 4px;
+text-align: left;
+font-family: "Metal Mania", sans-serif;
+padding-right: 5px;
+font-weight: 500;
+text-transform: uppercase;
 }
 .header-links{
     position: absolute;
@@ -32,18 +45,14 @@ white-space: nowrap;
     text-align: right;
     padding-right: 5px;
     display: inline-block;
+    float: left;
 }
-
-#menu li {
-	float: right;
-	margin-right: 20px;
-}
-#menu a {
+.header-links a {
 	text-decoration: none;
 	color: inherit;
 }
-#menu a:hover{
-	border-bottom: 1px solid #777777;
+.header-links a:hover{
+	border-bottom: 1px solid hsla(0, 4%, 5%, 0.918);
 }
 .active{
 border-bottom: 1px solid #777777;
