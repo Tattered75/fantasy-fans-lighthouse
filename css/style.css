@@ -12,8 +12,7 @@ body
 
 }
 /*----------------------Main Headings & Header Links Section-------*/
-h1 {
-
+h2 {
 	font-family: "Metal Mania", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 4px;
@@ -21,10 +20,9 @@ h1 {
 }
 
 #main-heading {
-
 	float: left;
-	font-size: 280%;
-	margin-left: 30px;
+	font-size: 200%;
+	margin-left: 20px;
 }
 
 #header-links{
@@ -62,28 +60,44 @@ letter-spacing: 4px;
 border-bottom: 1px solid #777777;
 
 }
+/*----------------------Main Image & Image Text-------*/
+#hero-image{
 
-.cover-text, h2{
-	 font-family: Noto Serif;
-	 color: #fff;
-	padding-top: 40px;
-	padding-left: 10px;
-	 position: absolute;
-     float: left;
-     border-top: 40px;
-    letter-spacing: 4px;
-     font-size: 160%;
- }
-cover-text, p{
-    font-size: 120%;
-	 font-family: Noto Serif;
-	 color: #fff;
-		padding-top: 10px;
-		padding-left: 10px;
-        padding-bottom: 40px;
-        float: left;
-        letter-spacing: 2px;
+height: 600px;
+width: 100%;
+background: url("https://www.setaswall.com/wp-content/uploads/2017/07/Lighthouse-Background-37-1920x1200-768x480.jpg")
+no-repeat right;
+margin-right: 40px;
+padding-right: 40px;
+
 }
+#hero-outer{
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+position: relative
+}
+@keyframes hero-zoom{
+	from {
+		transform: scale(1);
+	}
+	to{
+		transform: scale(1.1);
+	}
+}
+
+#cover-text, h3, h4, p{
+	color: #000000;
+}
+ #cover-text {
+	 font-size: 120%;
+	 letter-spacing: 2px;
+		padding-top: 10px;
+		padding-left: 5px;
+		bottom: 30px;
+	margin-left: 5px;
+     position: absolute;
+ }
 
 .movies{
     display: grid;
@@ -115,16 +129,25 @@ color: #fff;}
 
 /*-----------FOOTER----*/
 footer{
-    color: #555555;
-    min-height: 120px;
-    margin: 0;
+	height: 150px;
 }
-.uppercase{
-    text-transform: uppercase;
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
-.general-sub{
-    font-family: "Playfair", sans-serif;
-    font-weight: 300;
-    color: #555555;
+.social-networks{
+	text-align: center;
+}
+.social-networks li{
+	display: inline;
+}
 
+.social-networks i{
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #777777;
 }
