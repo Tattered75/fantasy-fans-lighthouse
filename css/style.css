@@ -125,31 +125,54 @@ max-height: 50%;
 
 #activities h2 {
   color: #fafafa;
+  text-align: left;
+margin-left: 40px;
+margin-right: 600px;
   }
-
+#activities p{
+color: #fafafa;
+font-size: 110%;
+text-align: left;
+margin-right: 600px;
+margin-left: 40px;
+}
 
 /*----------------------SIGN UP PAGE-------*/
 .sign-up{
-    background: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/07/17/6c/34.jpg) no-repeat center center;
-color: #fff;}
+    color: #fff;}
 .contact-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
     }
-
+#member-form{
+    padding-right: 500px;
+    padding-left: 500px;
+    align-items: center;
+}
 .center-form{
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+     background: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/07/17/6c/34.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    overflow: hidden;
+    padding-right: 500px;
+    padding-left: 500px;
+    align-items: center;
+    
+
 }
 
 button[type="submit"]{
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    background-color: #D83816;
 }
 /*----------------------Media Query*/(to make it adapt to a phone size)
 @media(min-width: 992px){
@@ -161,15 +184,14 @@ button[type="submit"]{
 }
 
 /*-----------FOOTER-----------------------*/
-footer{
-	height: 150px;
-}
-.footer{
-    position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+
+#footer{
+position:absolute;
+bottom: 0;
+width: 100%;
+height:60px; 
+text-align: center;
+color:#fff;
 }
 .social-networks{
 	text-align: center;
@@ -182,5 +204,31 @@ footer{
 	font-size: 160%;
 	margin: 1%;
 	padding: 5%;
-	color: #777777;
+	
+}
+
+/*--------------------POSITIONING---------------*/
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#fff;
+   padding:10px;
+   height: 100px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+
+#container {
+   height:100%;
 }

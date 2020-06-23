@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/icons/" type="text/css"/>
       <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <title>Fantasy Fans Lighthouse Project</title>
   
@@ -20,7 +21,7 @@
    <nav> 
 		 <ul id="header-links">
 			 <li>
-				 <a href="Sign Up"> Sign Up </a>
+				 <a href="sign-up.html"> Sign Up </a>
 			 </li>
 			 <li>
 				 <a href="activities.html"> Activities </a>
@@ -31,21 +32,32 @@
 		 </ul>
    </nav>
    </header>
-    <section>
+
     <div class="center-form">
 <form>
-<input type="text" name="name" id="Fullname" class="form-control" placeholder="Name" required>
-<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required> </textarea>
-<button type="submit" class="btn btn-secondary">Send project request</button>
-btn-secondary – is the bootstrap color class for the button
-</form>
+<div class="row">
+ <div class="col-sm-12">
+    <div id="member-form"> </div>
+    <input type="text" name="name" id="Fullname" class="form-control" placeholder="Name:" required>
+    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email:" required>
+     <input type="text" name="activity" id="ActivityName" class="form-control" placeholder="Choose Activity:" required>
+    <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required> </textarea>
+    <button type="submit" class="btn btn-secondary">Membership Form Request</button>
 
-    </section>
+</div>
+</div>
+</form>
+</div>
+
+<div id="container">
+   <div id="header"></div>
+   <div id="body"></div>
+   <div id="footer"></div>
+</div>
     <footer> 
      <div class="footer">
     <ul class="social-networks"> 
-			<li><a href="https://www.facebook.com"  target="_blank" alt="facebook link"><i class="fab fa-facebook-square"></i> </a> </li>
+			<li><a href="https://www.facebook.com"  target="_blank"><i class="fab fa-facebook-square"></i> </a> </li>
 			<li><a href="https://www.twitter.com"  target="_blank"><i class="fab fa-twitter-square"></i> </a> </li>
 			<li><a href="https://www.youtube.com"  target="_blank"><i class="fab fa-youtube-square"></i> </a> </li>
 			<li><a href="https://www.instagram.com"  target="_blank"><i class="fab fa-instagram"></i> </a> </li>
