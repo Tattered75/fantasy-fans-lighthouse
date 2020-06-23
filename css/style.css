@@ -102,20 +102,30 @@ position: relative
 	margin-left: 5px;
      position: absolute;
  }
-
-
-
-.activities{
-  max-height: 75%;
-    text-align: center;
-    width: 100%;
-}
-#activities-image{
-background: url("https://media1.s-nbcnews.com/j/newscms/2019_13/2459586/180608-aliens-fermi-paradox-ac-515p_3ed014cab156ff9319f4d52ee5242b89.fit-2000w.jpg") cover;
-max-height: 75%;
-width: 100%;
+/#activities{
+  background-image: url("https://i.redd.it/8iljphu63ep21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 
 }
+
+#activities div{
+  color: #fafafa;
+  background-color: rgba(0, 0,0, .6);
+  width: 19%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  margin: 2px;
+
+}
+
+#activities h2 {
+  color: #fafafa;
+
 
 /*----------------------SIGN UP PAGE-------*/
 .sign-up{
